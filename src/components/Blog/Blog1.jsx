@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-const URL = "http://localhost:3000/ourBlog1";
+const URL = "https://my-json-server.typicode.com/muradabdullayevv/Final-project-server/ourBlog1";
+// const URL = "http://localhost:3000/ourBlog1";
 function Blog1() {
   const [blogData, setBlogData] = useState([]);
 

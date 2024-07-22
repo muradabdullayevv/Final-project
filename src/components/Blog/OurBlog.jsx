@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
 import axios from "axios";
-const URL = "http://localhost:3000/ourBlog2";
+const URL = "https://my-json-server.typicode.com/muradabdullayevv/Final-project-server/ourBlog2";
+// const URL = "http://localhost:3000/ourBlog2";
 function OurBlog() {
   const [blogFile, setBlogFile] = useState([]);
   useEffect(() => {
