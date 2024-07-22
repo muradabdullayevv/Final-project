@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog1{
+    padding: 50px;
+    display: flex;
+    flex-direction: column; 
+    >h2{
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 64px;
+        text-align: center;
+    }
+    >span{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 25px;        
+    }
+    >img{
+        margin-bottom: 30px;
+    }
+    >p{
+        font-family: Poppins;
+        width: 65%;
+        text-align: center;
+        margin: 0 auto;
+        color: #282938;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
+/* blog2 */
+.blog2{
+    padding: 30px;
+    >h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 35px;
+    }
+    >.cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 15px;
+        >.card{
+            padding: 15px;
+            /* width: 100%; */
+            >img{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            >.p1{
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 40px;
+                text-align: left;        
+            }
+            >h6{
+                font-family: Poppins;
+                font-size: 24px;
+                color: #282938;
+                font-weight: 600;
+                line-height: 40px;
+                text-align: left;        
+            }
+            >.p2{
+                font-family: Poppins;
+                font-size: 14px;
+                color: #282938;
+                font-weight: 200;
+                line-height: 28px;
+                text-align: left;
+            }
+        }
+        >.card:hover{
+            transition: all 0.3s;
+            transform: translateY(-20px);
+            cursor: pointer;
+        }
+    }
+}

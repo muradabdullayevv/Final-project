@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.send {
+    width: 562px;
+    margin: auto;
+    font-family: "Poppins";
+
+    h1 {
+        margin-top: 128px;
+        font-weight: 600;
+        font-size: 48px;
+    }
+
+    p {
+        margin-top: 16px;
+        opacity: .7;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 64px;
+    }
+}
+
+.inputs {
+    background-color: #F4F6FC;
+    margin: auto;
+    width: 60%;
+    padding: 9%;
+    font-family: "Poppins";
+    margin-bottom: 20px;
+
+
+    .inputflex lable {
+        display: block;
+
+    }
+
+
+    .input1 {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .input1 input {
+        border-color: #1e1e1e1f;
+        margin-right: 80px;
+        padding: 10px 15% 10px 15%;
+        border-radius: 10px;
+
+    }
+
+
+    .input2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .input2 input {
+        border-color: #1e1e1e1f;
+        padding: 10px 15% 10px 15%;
+        margin-right: 80px;
+        border-radius: 10px;
+    }
+}
+
+.input3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input3 textarea {
+    border-color: #1e1e1e1f;
+    padding-left:10px;
+    padding-top: 10px;
+    width: 630px;
+    resize: none;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.send-message {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        font-family: "Manrope";
+        font-weight: 600;
+        font-size: 18px;
+        width: 37%;
+        background-color: #282938;
+        padding: 13px;
+        color: white;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .3s;
+        border-style: none;
+
+        &:hover {
+            background-color: #FCD980;
+            color: #282938;
+        }
+    }
+}

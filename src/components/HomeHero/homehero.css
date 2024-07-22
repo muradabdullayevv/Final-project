@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-hero {
+    margin: auto;
+    width: 1280px;
+}
+
+#banner {
+    padding: 126px 0px;
+    background: #1C1E53;
+}
+
+.banner_item {
+    display: flex;
+    justify-content: space-between;
+    .banner_right {
+        img {
+            width: 638px;
+        }
+    }
+}
+
+.banner_text {
+    width: 582px;
+}
+
+.banner_text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #FFFFFF;
+    padding-right: 20px;
+    padding-bottom: 24px;
+}
+
+
+.banner_text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-right: 105px;
+}
+
+.banner-links {
+    margin-top: 48px;
+    a{
+        
+        margin-right: 40px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+}
+
+.banner-links  :nth-child(1) {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+    padding: 16px 56px;
+    background: #FCD980;
+    border-radius: 41px;
+    &:hover{
+        background-color: rgb(4, 63, 4);
+        transition: .5s;
+        color: white;
+    }
+}
+
+.banner-links  :nth-child(2) {
+    color: white;
+    font-family: 'Poppins';
+    &:hover{
+        color: gray;
+        transition: .5s;
+    }
+}
+

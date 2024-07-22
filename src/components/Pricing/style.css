@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pricing1{
+    padding: 30px;
+    >h2{
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 64px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    >p{
+        font-family: Poppins;
+        width: 40%;
+        margin: 0 auto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;        
+    }
+}
+/* pricing2 */
+.pricing2{
+    padding: 15px;
+    >.cards{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        >.card{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 25px;
+            border: 1px solid grey;
+            border-radius: 10px;
+            >.price{
+                >h3{
+                    font-family: Poppins;
+                    display: inline;
+                    margin-right: 15px;
+                    font-size: 38px;
+                    font-weight: 600;
+                    line-height: 56px;
+                    text-align: left;
+                }
+                >span{
+                    font-family: Poppins;
+                    font-size: 16px;
+                    color: #2405F2;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                }
+            }
+            .icon-conts{
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+                margin-bottom: 25px;
+                >.icon-cont{
+                    display: flex;
+                    gap: 15px;
+                    >p{
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        text-align: left;
+                    }
+                    >img{
+                        object-fit: contain;
+                    }
+                }
+                .icon-cont2{
+                    display: flex;
+                    gap: 15px;
+                    >p{
+                        font-family: Poppins;
+                        color: darkgray;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        text-align: left;
+                    }
+                    >img{
+                        object-fit: contain;
+                    }
+                }
+            }
+            >.about{
+                >h6{
+                    font-family: Poppins;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 36px;
+                    text-align: left;
+                    cursor: auto;
+                }
+                >p{
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: left;
+                    cursor: auto;
+                }
+            }
+            >button{
+                width: 50%;
+                font-family: Poppins;
+                font-size: 16px; 
+                color: #fff;
+                background-color: #282938;
+                border: 1px;
+                border-radius: 25px;
+                margin: 0 auto;
+                padding: 15px;
+            }
+            >button:hover{
+                color: black;
+                background-color: #FCD980;
+                cursor: pointer;
+                transition: all 0.3s;
+            }
+        }
+        >.card:hover{
+            cursor: pointer;
+            transform: translateY(-10px);
+            transition: all 0.3s;
+            background-color: #2916a3;
+            color: #fff;
+        }
+    }
+}

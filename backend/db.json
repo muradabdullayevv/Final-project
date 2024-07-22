@@ -1,0 +1,66 @@
+{
+    "ourBlog1":[
+        {
+            "id":1,
+            "title":"Tələbələr üçün studio mühitin yaradılması üzrə UX nümunəsi",
+            "descriptions":"Andrew Jonson 27 yanvar 2021-ci ildə dərc edilib",
+            "img":"/Blog/firstblog.svg",
+            "description":"Görünür, biz atmosferdə böyük hündürlüyə çatmışdıq, çünki səma ölü qara idi və ulduzlar parıldamağı dayandırmışdı. Dənizin üfüqünü yamacda tamaşaçı səviyyəsinə qaldıran eyni illüziya ilə."
+        }
+    ],
+    "ourBlog2":[
+        {
+            "id":1,
+            "img":"/Blog/blogcard1.svg",
+            "date":"27 yanvar 2021-ci il",
+            "title":"Bir Webflow istifadəçisi 14 ay ərzində tək nəfərlik məsləhətini 0-100K dollar arasında necə artırdı",
+            "descriptions":"Görün Webflow-a keçid bir insanın satış strategiyasını necə dəyişdi və ona cəlb etməyə imkan verdi"
+        },
+        {
+            "id2":2,
+                "img":"/Blog/blogcard2.svg",
+                "date":"27 yanvar 2021-ci il",
+                "title":"Bir Webflow istifadəçisi 14 ay ərzində tək nəfərlik məsləhətini 0-100K dollar arasında necə artırdı",
+                "descriptions":"Görün Webflow-a keçid bir insanın satış strategiyasını necə dəyişdi və ona cəlb etməyə imkan verdi"
+        },
+        {
+             "id3":3,
+             "img":"/Blog/blogcard3.svg",
+             "date":"27 yanvar 2021-ci il",
+             "title":"Bir Webflow istifadəçisi 14 ay ərzində tək nəfərlik məsləhətini 0-100K dollar arasında necə artırdı",
+             "descriptions":"Görün Webflow-a keçid bir insanın satış strategiyasını necə dəyişdi və ona cəlb etməyə imkan verdi"
+        },
+                    
+        {
+             "id4":4,
+             "img":"/Blog/blogcard4.svg",
+             "date":"27 yanvar 2021-ci il",
+             "title":"Bir Webflow istifadəçisi 14 ay ərzində tək nəfərlik məsləhətini 0-100K dollar arasında necə artırdı",
+             "descriptions":"Görün Webflow-a keçid bir insanın satış strategiyasını necə dəyişdi və ona cəlb etməyə imkan verdi"
+        },
+                    
+        {
+              "id5":5,
+              "img":"/Blog/blogcard5.svg",
+              "date":"27 yanvar 2021-ci il",
+              "title":"Bir Webflow istifadəçisi 14 ay ərzində tək nəfərlik məsləhətini 0-100K dollar arasında necə artırdı",
+              "descriptions":"Görün Webflow-a keçid bir insanın satış strategiyasını necə dəyişdi və ona cəlb etməyə imkan verdi"
+        },
+                    
+        {
+              "id6":6,
+              "img":"/Blog/blogcard6.svg",
+              "date":"27 yanvar 2021-ci il",
+              "title":"Bir Webflow istifadəçisi 14 ay ərzində tək nəfərlik məsləhətini 0-100K dollar arasında necə artırdı",
+              "descriptions":"Görün Webflow-a keçid bir insanın satış strategiyasını necə dəyişdi və ona cəlb etməyə imkan verdi"
+        }
+                    
+
+
+
+
+    ]
+
+
+}
+
